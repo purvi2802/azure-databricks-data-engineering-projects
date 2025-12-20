@@ -159,3 +159,14 @@ project-2-data-quality-incremental-pipeline/
 ✔ Monitoring Metrics  
 
 This project represents a *real-world, production-style data engineering pipeline*.
+
+## Key Learnings
+- Implemented state-based incremental processing using file-level watermarking
+- Designed data quality validation and rejected record handling
+- Built end-to-end orchestration using Databricks notebook workflows
+
+## How to Run
+1. Upload raw CSV files to dbfs:/project2/raw/
+2. Run 04_Orchestration notebook
+3. Verify outputs in incremental, rejected, and dq_reports folders
+
